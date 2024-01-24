@@ -43,6 +43,9 @@
                 <td>Otto</td>
                 <td>Computer science</td>
                 <td>Otto</td>
+                <td>
+                <button type="button" class="btn btn-primary">Dzest</button>
+                <button type="button" class="btn btn-primary">Rediget</button>
             </tr>
             <tr>
                 <th scope="row">Python</th>
@@ -50,6 +53,9 @@
                 <td>Jacob</td>
                 <td>Computer science</td>
                 <td>J.Bond</td>
+                <td>
+                <button type="button" class="btn btn-primary">Dzest</button>
+                <button type="button" class="btn btn-primary">Rediget</button>
             </tr>
             <tr>
                 <th scope="row">C#</th>
@@ -57,6 +63,9 @@
                 <td>Larry</td>
                 <td>Computer science</td>
                 <td>Larry Bird</th>
+                <td>
+                <button type="button" class="btn btn-primary">Dzest</button>
+                <button type="button" class="btn btn-primary">Rediget</button>
             </tr>
         </tbody>
     </table>
