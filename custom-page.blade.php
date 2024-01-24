@@ -13,7 +13,7 @@
     @include('navigation') <!-- Include the navigation -->
     
     <div class="container">
-     
+      
     </div>
     
     <!-- Include Bootstrap JS and jQuery -->
