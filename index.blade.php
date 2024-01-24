@@ -3,7 +3,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+ 
 <h1>Book List</h1>
 
 <table border="1">
