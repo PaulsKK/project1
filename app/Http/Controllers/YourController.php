@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CustomPageController extends Controller
+class YourController extends Controller
 {
-    public function index()
+    public function showData()
     {
         $names = ['Java', 'Python', 'C#'];
         $dates = ['2022-12-2', '2021-03-14', '2024-01-21'];
@@ -21,7 +21,7 @@ class CustomPageController extends Controller
                 'publisher_name' => $publishers[$i]
             ];
         }
-        return view('navigation', ['data' => $returnArr]);
+
+        return view('your-blade-view', ['data' => $returnArr]);
     }
 }
-

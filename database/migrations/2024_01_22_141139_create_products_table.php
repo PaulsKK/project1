@@ -4,28 +4,33 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateBooksTable extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('products', function (Blueprint $table) {
+        Schema::create('books', function (Blueprint $table) {
+            // Define your table structure here
             $table->id();
             $table->string('title');
-            $table->string('price');
-            $table->string('production_code');
-            $table->string('description');
-            $table->timestamps();
+            $table->text('description');
+            $table->integer('pages');
+            $table->float('price');
+            $table->timestamps(); // Created_at and Updated_at columns
         });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
-        Schema::dropIfExists('products');
+        Schema::dropIfExists('books');
     }
-};
+}

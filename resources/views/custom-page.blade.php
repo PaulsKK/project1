@@ -13,9 +13,7 @@
     @include('navigation') <!-- Include the navigation -->
     
     <div class="container">
-        <!-- Your page content goes here -->
-        <h1>Welcome to Your Laravel App!</h1>
-        <p>This is your custom page content.</p>
+     
     </div>
     
     <!-- Include Bootstrap JS and jQuery -->
